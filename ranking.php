@@ -319,24 +319,4 @@ if(isset($_POST['add'])){
     </div>
     <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <link rel="stylesheet" href="chosen/chosen.css">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="chosen/chosen.jquery.js" type="text/javascript"></script>
-    <script src="chosen/docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    var config = {
-      '.chosen-select'           : {},
- 
-    }
-    for (var selector in config) {
-      $(selector).chosen(config[selector]);
-    }
-  </script>
-
-</body>
-
-</html>
